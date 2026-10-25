@@ -1,10 +1,8 @@
 import java.util.*;
 
-/** Assignment 3 graph algorithms. Every request uses fresh local state. */
 public final class Algorithms {
     private Algorithms() {}
-
-    // Union-find with path compression and union by size.
+    
     private static class DSU {
         int[] parent, size;
         int components;
